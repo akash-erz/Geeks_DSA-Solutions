@@ -5,7 +5,7 @@ class Solution {
         // code here
         if(n==1){
             count++;
-            return 1;
+            return count;
         }
         towerOfHanoi(n-1, from, aux, to);
         count++;
